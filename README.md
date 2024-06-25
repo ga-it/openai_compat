@@ -77,6 +77,7 @@ with your actual key):
 ``` r
 Sys.setenv(
     OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    OPENAI_COMPAT_BASE = 'https://foor.bar:port/'
 )
 ```
 
